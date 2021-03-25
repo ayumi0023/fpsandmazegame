@@ -7,13 +7,17 @@
 outline: none;
 }
 
+
+
 body{
-    background-color:#4D4D4F;
-    font-family:"Roboto", "游ゴシック","ヒラギノ角ゴシック",sans-serif;
-    background-image:url(backmovie.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+background-color:#4D4D4F;
+   font-family:"Roboto", "游ゴシック","ヒラギノ角ゴシック",sans-serif;
+}
+
+#bgvideo{
+    width: 100%;
+    position: fixed;
+    z-index: -1000;       
 }
 /*
 .filter{
@@ -87,6 +91,7 @@ background-color: rgba(0,0,0,0.8);
     font-size: 30px;
     cursor: pointer;
     color: #FFFFF6;
+
 }
 */
 a{
@@ -221,9 +226,9 @@ margin: 50px 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     }
-    header ul{
-    text-align:right;
-    }
+ header ul{
+  text-align:right;
+}
     li{
         display: list-item;
     }
